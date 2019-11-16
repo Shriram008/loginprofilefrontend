@@ -17,7 +17,7 @@ import "./vendor/datatables/dataTables.bootstrap4.css"
            <footer  className="sticky-footer" style={{'height': '20px'}}>
             <div  className="container my-auto">
               <div  className="copyright text-center my-auto">
-                <span>Copyright © Ninja Team 1</span>
+                <span>Copyright © Siddharth & Shriram</span>
               </div>
             </div>
           </footer>

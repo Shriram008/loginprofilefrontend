@@ -83,7 +83,7 @@ export default class ReadProfile extends Component {
     }
 
     componentDidMount() {
-        axios.get('http://localhost:4000/ids/' + this.props.match.params.id)
+        axios.get('http://18.191.235.189:4000/ids/' + this.props.match.params.id)
             .then(response => {
                 this.setState({
                     _id: response.data._id,

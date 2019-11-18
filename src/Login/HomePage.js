@@ -46,7 +46,7 @@ class HomePage extends React.Component {
             })
     }
     componentDidUpdate() {
-        axios.get('http://localhost:4000/ids/')
+        axios.get('http://18.191.235.189:4000/ids/')
             .then(response => {
                 this.setState({ ids: response.data });
             })

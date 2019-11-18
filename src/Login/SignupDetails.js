@@ -80,7 +80,7 @@ export default class SignupDetails extends Component {
     
 
     componentDidMount() {
-        axios.get('http://localhost:4000/ids/count')
+        axios.get('http://18.191.235.189:4000/ids/count')
             .then(response => {
                 
                 this.setState({ 
@@ -114,7 +114,7 @@ export default class SignupDetails extends Component {
         }
 
 
-        axios.post('http://localhost:4000/ids/add', IDs)
+        axios.post('http://18.191.235.189:4000/ids/add', IDs)
             .then(res => console.log(res.data));
 
             this.props.history.push('/');

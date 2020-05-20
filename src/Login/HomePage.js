@@ -104,7 +104,7 @@ class HomePage extends React.Component {
   
       return (
         <div>
-          <h3>Active Profile Directory</h3>
+          <h3>Active Profiles Directory</h3>
                 <table className="table table-striped" style={{ marginTop: 20 }} >
                     <thead>
                         <tr>
